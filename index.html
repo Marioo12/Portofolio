@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Personal Portfolio</title>
+    <!-- Devicon: free logos for programming languages (loaded from the internet) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/devicon.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--Header Section-->
+    <header class="header">
+      <div class="wrapper">
+        <nav>
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#project">Project</a>
+          <a href="#ketrampilan">Ketrampilan</a>
+          <a href="#kontak">Kontak</a>
+        </nav>
+      </div>
+    </header>
+
+    <!--Main Content Section-->
+    <main>
+      <section id="home">
+        <div class="hero">
+          <!-- LEFT SIDE: text + button -->
+          <div class="hero-text">
+            <p class="hero-greeting">Hello, I'm</p>
+            <h1 class="hero-name">Alexander Mario Saputra</h1>
+            <h2 class="hero-role">Web Developer</h2>
+            <p class="hero-desc">Web Developer with internship experience building modern web applications using Laravel and React. Focused on creating responsive interfaces and meaningful user experiences.</p>
+
+            <!-- Button INSIDE hero-text, so it stays under the description -->
+            <div class="hero-button">
+              <a href="cv.pdf" class="btn-primary" download="CV-AlexanderMarioSaputra.pdf">Download CV</a>
+            </div>
+          </div>
+
+          <!-- RIGHT SIDE: photo -->
+          <div class="hero-image">
+            <img src="foto.png" alt="Profile Photo" />
+          </div>
+        </div>
+      </section>
+      <section id="about">
+        <div class="about">
+          <!-- Small label + catchy headline (change the headline to your own style) -->
+          <p class="about-label">ABOUT ME</p>
+          <h2 class="about-headline">I turn ideas into working websites 🚀</h2>
+
+          <!-- TWO COLUMNS: story on the left, facts card on the right -->
+          <div class="about-grid">
+            <!-- LEFT: story + connect block -->
+            <div class="about-story reveal">
+              <p>I'm an <span class="highlight">Informatics Engineering</span> graduate (cumlaude) who enjoys building websites with HTML, CSS, JavaScript, PHP and MySQL.</p>
+              <p>I did an internship at Disdukcapil Kota Salatiga, where I worked with population data management, and 'm always looking for new things to build and learn.</p>
+
+              <h3 class="connect-title">Let's Connect! 🤝</h3>
+              <p>Feel free to reach out if you want to collaborate on something!</p>
+
+              <!-- Social icons: replace each # with your real link -->
+              <div class="social">
+                <a href="#" aria-label="Github"><i class="devicon-github-original"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="devicon-linkedin-plain"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="Alexandermariosaputra@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+              </div>
+            </div>
+
+            <!-- RIGHT: facts card (one row = one .fact) -->
+            <div class="facts-card reveal">
+              <div class="fact"><span class="fact-label">🎓 Education</span><span class="dact-value">Informatic Engineering, UKSW</span></div>
+              <div class="fact"><span class="fact-label">📍 Location</span><span class="dact-value">Salatiga, Central Java</span></div>
+              <div class="fact"><span class="fact-label">💼 Experience</span><span class="dact-value">Internship, Disdukcapil</span></div>
+              <div class="fact"><span class="fact-label">💙 Interest</span><span class="dact-value">Web Development</span></div>
+            </div>
+          </div>
+
+          <!-- STAT CARDS: big word/number + small label -->
+          <div class="stats">
+            <div class="stat-card reveal"><span class="stat-number">Cumlaude</span><span class="stat-label">Graduate</span></div>
+            <div class="stat-card reveal"><span class="stat-number">5+</span><span class="stat-label">Technologies</span></div>
+            <div class="stat-card reveal"><span class="stat-number">1</span><span class="stat-label">Internship</span></div>
+          </div>
+
+          <!-- TECH STACK (keep the badges you already have) -->
+          <div class="tech-stack reveal">
+            <h3 class="tech-title">Tech Stack</h3>
+            <div class="tech-list">
+              <span class="tech-badge"><i class="devicon-html5-plain colored"></i> HTML</span>
+              <span class="tech-badge"><i class="devicon-css3-plain colored"></i> CSS</span>
+              <span class="tech-badge"><i class="devicon-javascript-plain colored"></i> JavaScript</span>
+              <span class="tech-badge"><i class="devicon-php-plain colored"></i> PHP</span>
+              <span class="tech-badge"><i class="devicon-mysql-plain colored"></i> MySQL</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="project"><h1>Project</h1></section>
+      <section id="ketrampilan"><h1>Ketrampilan</h1></section>
+      <section id="kontak"><h1>Kontak</h1></section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
